@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-labelledby="title">
+  <title id="title">Релей — обложка демо кабинета обработки обращений</title>
+  <rect width="960" height="480" fill="#edf3f6"/>
+  <rect width="202" height="480" fill="#112837"/>
+  <g font-family="system-ui, sans-serif">
+    <rect x="25" y="28" width="36" height="36" rx="8" fill="#b3ead4"/>
+    <path d="M36 39h6v6h-6zm8 0h6v6h-6zm0 8h6v6h-6z" fill="#075f56"/>
+    <text x="73" y="55" fill="#f3f9fa" font-size="24" font-weight="700">Релей</text>
+    <rect x="17" y="90" width="168" height="42" rx="7" fill="#234653"/>
+    <text x="31" y="117" fill="#fff" font-size="16" font-weight="650">Очередь</text>
+    <text x="31" y="159" fill="#c6d7df" font-size="15">Маршрутизация</text>
+    <text x="31" y="197" fill="#c6d7df" font-size="15">Журнал событий</text>
+    <text x="25" y="445" fill="#c6d7df" font-size="14">Демо CREATOR</text>
+    <text x="230" y="58" fill="#162432" font-size="34" font-weight="740">Очередь обращений</text>
+    <g fill="#fff" stroke="#d9e3e9">
+      <rect x="230" y="86" width="222" height="69" rx="9"/>
+      <rect x="464" y="86" width="222" height="69" rx="9"/>
+      <rect x="698" y="86" width="222" height="69" rx="9"/>
+      <rect x="230" y="172" width="292" height="261" rx="11"/>
+      <rect x="534" y="172" width="386" height="261" rx="11"/>
+    </g>
+    <g fill="#506172" font-size="14">
+      <text x="246" y="113">Новые</text><text x="480" y="113">Нужен повтор</text><text x="714" y="113">Переданы</text>
+      <text x="552" y="199">Заявка №3 · Электронная почта</text>
+    </g>
+    <g fill="#162432" font-size="23" font-weight="700">
+      <text x="246" y="139">2</text><text x="480" y="139">0</text><text x="714" y="139">1</text>
+      <text x="552" y="239">Расчёт интернет-магазина</text>
+    </g>
+    <rect x="231" y="217" width="290" height="74" fill="#e2f1ed"/>
+    <rect x="231" y="217" width="4" height="74" fill="#006960"/>
+    <g fill="#162432" font-size="15" font-weight="650">
+      <text x="248" y="201">Входящие</text>
+      <text x="248" y="244">Расчёт интернет-магазина</text>
+      <text x="248" y="320">Заявки с нового лендинга</text>
+      <text x="248" y="380">Подтверждение записи</text>
+      <text x="552" y="358">События по заявке</text>
+    </g>
+    <g fill="#506172" font-size="14">
+      <text x="248" y="270">Алла Морозова · Поддержка</text>
+      <text x="552" y="270">Команда по правилу</text>
+    </g>
+    <text x="552" y="292" fill="#162432" font-size="15" font-weight="650">Поддержка</text>
+    <rect x="552" y="307" width="150" height="27" rx="5" fill="#e2f1ed"/>
+    <text x="562" y="326" fill="#115749" font-size="13" font-weight="700">Передана · CRM-0003</text>
+    <path d="M552 370h347M552 400h347" stroke="#d9e3e9"/>
+    <text x="552" y="390" fill="#162432" font-size="14">Передано в демо-CRM</text>
+    <text x="552" y="420" fill="#90362c" font-size="14">Ошибка передачи</text>
+  </g>
+</svg>

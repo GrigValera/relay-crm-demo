@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Релей — рабочее место менеджера для распределения и передачи обращений в демо-CRM.">
+  <title>Релей — обработка обращений</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#workspace">К содержанию</a>
+  <div class="layout">
+    <aside class="sidebar">
+      <a class="brand" href="#queue">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span><strong>Релей</strong><small>Обработка обращений</small></span>
+      </a>
+      <nav aria-label="Разделы">
+        <a href="#queue" aria-current="page">Очередь</a>
+        <a href="#rules">Маршрутизация</a>
+        <a href="#history">Журнал событий</a>
+      </nav>
+      <p class="demo-note"><strong>Демо CREATOR</strong>Каналы и CRM имитируются. Данные хранятся в браузере.</p>
+    </aside>
+    <main id="workspace" tabindex="-1">
+      <header class="page-header">
+        <div><h1 id="page-title" tabindex="-1">Очередь обращений</h1><p id="page-description"></p></div>
+        <button id="show-intake" type="button" aria-controls="intake" aria-expanded="false">Добавить тестовую заявку</button>
+      </header>
+      <form id="intake" class="intake panel" hidden>
+        <label for="intake-channel">Канал новой заявки</label>
+        <div><select id="intake-channel" name="channel"></select><button type="submit">Получить заявку</button></div>
+      </form>
+      <p id="status" role="status" class="notice"></p>
+      <noscript><p>Включите JavaScript, чтобы открыть очередь и проверить работу демо.</p></noscript>
+      <div id="view"></div>
+    </main>
+  </div>
+</body>
+</html>
